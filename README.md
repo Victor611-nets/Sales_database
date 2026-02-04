@@ -176,3 +176,10 @@ Conclusion
 
 This project covers the entire workflow from importing and cleaning data to generating advanced analytics reports. It demonstrates best practices in data engineering and analytics using PostgreSQL.
 
+📬 Connect
+
+Feel free to connect with me on:
+
+LinkedIn
+
+Twitter
