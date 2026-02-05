@@ -1,0 +1,145 @@
+Sales Analytics: Trends, Rankings & Growth
+
+An interactive Tableau dashboard designed to uncover sales performance patterns, top-performing products, regional strength, and growth trends using a cleaned sales dataset.
+
+This project focuses on clear business storytelling, combining structured data preparation with compelling visual analytics.
+
+🧠 Project Objective
+
+The goal of this dashboard is to answer key business questions:
+
+How is revenue trending over time?
+
+Which countries and products generate the most sales?
+
+Who are the top-performing salespeople?
+
+Where is growth accelerating or slowing down?
+
+The dashboard is built to support data-driven decision-making for sales and business stakeholders.
+
+📂 Data Source
+
+Source: Sales CSV exported from a PostgreSQL sales database
+
+Granularity: Transaction-level sales data
+
+Data Fields:
+
+Sales Person
+
+Country
+
+Product
+
+Sale Date
+
+Sales Amount
+
+Boxes Shipped
+
+⚠️ Data was cleaned and standardized prior to visualization (date formats, currency values, column naming).
+
+🔧 Data Preparation (Pre-Tableau)
+
+Before importing into Tableau, the data went through the following steps:
+
+Staging Table Creation in PostgreSQL
+
+Data Cleaning
+
+Removed currency symbols from amounts
+
+Converted dates to standard ISO format
+
+Renamed columns for consistency
+
+Final Sales Table Creation
+
+Export to CSV for Tableau Desktop import
+
+This ensured Tableau received analysis-ready data.
+
+📊 Dashboard Overview
+
+The dashboard includes the following components:
+
+1️⃣ Monthly Revenue Trend
+
+Line chart showing total revenue by month
+
+Used to identify seasonality and overall performance trends
+
+2️⃣ Sales by Country
+
+Bar chart comparing total revenue across countries
+
+Highlights top-performing and underperforming regions
+
+3️⃣ Sales by Product
+
+Ranked bar chart of products by revenue
+
+Quickly identifies best-selling products
+
+4️⃣ Sales Performance KPIs
+
+Total Revenue
+
+Total Boxes Shipped
+
+Average Revenue per Sale
+
+5️⃣ Rankings & Growth Insights
+
+Country and product rankings
+
+Month-over-month revenue comparison
+
+🎨 Design & Visualization Principles
+
+Clean, executive-style layout
+
+Consistent color palette
+
+Clear labels and readable fonts
+
+Minimal clutter with high information density
+
+Logical left-to-right analytical flow
+
+The design emphasizes clarity, insight, and storytelling.
+
+🖥️ Tableau Files
+
+Packaged Workbook (.twbx): Includes dashboard and data extract
+
+Screenshots: Provided for quick GitHub preview
+
+
+🚀 Key Skills Demonstrated
+
+SQL-based data cleaning and staging
+
+Analytical thinking and KPI design
+
+Tableau dashboard development
+
+Business-focused data storytelling
+
+End-to-end analytics workflow
+
+📌 How to Use
+
+Download the .twbx file
+
+Open with Tableau Desktop
+
+Interact with filters and charts to explore insights
+
+📬 Contact
+
+Created by Chukwu Victor Uro
+If you’d like to discuss this project or collaborate, feel free to reach out.
+
+⭐ If you found this project helpful or interesting, please consider giving the repository a star!
